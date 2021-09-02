@@ -1,0 +1,38 @@
+<template>
+
+<team_select title = "Batters"/>
+<router-view/>
+
+</template>
+<script>
+import team_select from "../components/team_select.vue"
+export default {
+  methods: {
+  }, 
+  data() {
+    return {
+    }
+  },
+  components:{
+    team_select
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style>
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+</style>
